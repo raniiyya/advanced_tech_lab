@@ -1,0 +1,140 @@
+/* Import a better font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.6;
+}
+
+
+/* General Reset */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Header Styling */
+header {
+    background-color: #ffc1e3; /* Pastel Pink */
+    padding: 1rem;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+/* Home Section */
+#home {
+    background-color: #ffe4f0; /* Light Pink */
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+.intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.image-box img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 3px solid #ffc1e3;
+    margin-bottom: 1rem;
+}
+
+.intro-text {
+    color: #333;
+}
+
+/* About Section */
+#about {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+#about h2 {
+    margin-bottom: 1rem;
+    color: #ff7aa2; /* Slightly darker pink */
+}
+
+/* Projects Section */
+#projects {
+    padding: 2rem 1rem;
+    background-color: #ffe4f0; /* Light Pink */
+}
+
+#projects h2 {
+    margin-bottom: 1rem;
+    color: #ff7aa2;
+}
+
+.project {
+    background-color: #fff;
+    border: 1px solid #ffc1e3;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+/* Contact Section */
+#contact {
+    padding: 2rem 1rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+#contact form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+#contact form input, #contact form textarea, #contact form button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#contact form button {
+    background-color: #ffc1e3;
+    color: #333;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#contact form button:hover {
+    background-color: #ff7aa2;
+}
+
+/* Footer */
+footer {
+    background-color: #ffc1e3;
+    text-align: center;
+    padding: 1rem;
+    color: #333;
+}
