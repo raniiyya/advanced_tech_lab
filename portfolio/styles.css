@@ -38,6 +38,10 @@ header nav ul li a {
     font-weight: bold;
 }
 
+.section_container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
 /* Home Section */
 #home {
     background-color: #ffe4f0; /* Light Pink */
@@ -68,6 +72,11 @@ header nav ul li a {
     padding: 2rem 1rem;
     background-color: #fff;
     text-align: center;
+}
+
+.about_list li {
+    display: flex;
+    justify-content: space-between;
 }
 
 #about h2 {
